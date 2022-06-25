@@ -23,11 +23,11 @@ This allows you to make changes and see it live whithout reload.
 ## Live Demo Link
 
 Access the deployed page on Github Pages: 
-[Live Demo]()
+[Live Demo](https://peterdtitan.github.io/chogm-2022-conference/)
 
 ## Link to Video Presentation
 
-[Watch Presentation]()
+[Watch Presentation](https://drive.google.com/file/d/1R6O4u2spAG6TxzmDQkO9P-z_2jAFJCt4/view?usp=sharing)
 
 ## Built With
 
