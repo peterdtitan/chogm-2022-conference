@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Global Events
+# CHOGM 2022 Rwanda
 
 ## Description
 CHOGM is a global forum where key changemakers and leaders meet to discuss matters that affect the world. This year it is held in Rwanda and this page is dedicated to all relevant issues and matters regarding the event and keeping up with key speakers during the event.
