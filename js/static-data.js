@@ -112,7 +112,7 @@ const eventsArr = [
         date: 'Mon, 08 - Tue, 09 Aug 2022',
         topic: 'Inter-African Trade Policy',
         location: 'Accra , Ghana',
-        info: "Understanding the major stakeholders involved and engaging them",
+        info: 'Understanding the major stakeholders involved and engaging them',
         tags: 'Global Policy || Trade || Trade Policy',
         hostName: 'African Union',
         hostImageUrl: './images/policy-events/au.jpeg',
