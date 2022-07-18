@@ -1,7 +1,4 @@
-/* Array of objects which contains events
-categories and events under that category.
-*/
-const eventsArr = [
+const conferenceArr = [
   {
     category: 'Education',
     description: 'Exploring the future of education and new approaches to building a better system.',
@@ -240,11 +237,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const result = Math.floor(step2) + min;
     return result;
   }
-  const activeCategory = eventsArr[getRandomIndexOfArray(0, eventsArr.length - 1)];
+  const activeCategory = conferenceArr[getRandomIndexOfArray(0, conferenceArr.length - 1)];
   activeCategory.privateClasses.active = 'active-category';
   // loop through events Array when page loads and display each category
 
-  eventsArr.forEach((events) => {
+  conferenceArr.forEach((events) => {
     const categoriesCtn = document.querySelector('.event-categories');
     const categoryCtn = document.createElement('div');
     const categoryClass = events.privateClasses.category;
@@ -321,9 +318,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-// disable any active category and get chance to enable the current category
+
 function disableActiveCategory() {
-  eventsArr.forEach((events) => {
+  conferenceArr.forEach((events) => {
     const eventsContainer = document.getElementById(events.privateClasses.category);
     const categoryContainer = document.querySelector(`.${events.privateClasses.category}`);
     if (eventsContainer.classList.contains('active')) {
@@ -332,9 +329,9 @@ function disableActiveCategory() {
     }
   });
 }
-// make the current category active when clicked
+
 document.querySelector('.event-categories').addEventListener('click', (e) => {
-  eventsArr.forEach((events) => {
+  conferenceArr.forEach((events) => {
     const eventsContainer = document.getElementById(events.privateClasses.category);
     const categoryContainer = document.querySelector(`.${events.privateClasses.category}`);
     if (e.target.classList.contains(events.privateClasses.category)) {
