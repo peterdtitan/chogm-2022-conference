@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           </div>
                           <h5 class="event-topic">${event.topic}</h5>
                           <div class="event-location">
-                              ${event.location} ~ Get <i style="color:#ec5242;" class="bi bi-star-fill"></i> interested & see live
+                              ${event.location}
                           </div>
                           <p class="event-info">${event.info}</p>
                           <p class="event-tags">
@@ -294,9 +294,6 @@ document.addEventListener('DOMContentLoaded', () => {
                           </p>
                           <div class="host-interested-container">
                               <div>Host : <u><i>${event.hostName}</i></u></div>
-                              <div>
-                                  <button id='star${event.starCount}' class="interested-btn"><i class="bi bi-star"></i><span>${event.starCount}k</span></button>
-                              </div>
                           </div>
                       </div>
                   </div>
