@@ -1,165 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHOGM 2022 | Rwanda</title>
+
+    <!--  Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!--  Animate CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--  Fonts  -->
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!--  Icons  -->
+    <script src="https://kit.fontawesome.com/a3af588d0f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="images/png" href="images/logo.jpg"/>
+
+    <!--  Personal Style Sheet  -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="navbar-content animate__animated animate__slow animate__fadeInDownBig">
+                <div class="mobile-navbar">
+                    <a href="" id="navbar-open-button"><i class="fas fa-bars fa-lg"></i></a>
+                </div>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-white">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="logo w-12 h-12" src="./images/logo.jpg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Speakers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">About</a>
-                    </li>
-                </ul>
+                <div class="desktop-navbar">
+                    <ul>
+                        <li><a href="#"><img src="images/logo.jpg" alt="CHOGM Logo" height="30"></a></li>
+                        <li>
+                            <ul>
+                                <li><a href="#highlights">Categories</a></li>
+                                <li><a href="#features">Events</a></li>
+                                <li><a href="about.html" class="about-button">About</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav><!-- //NAVBAR -->
 
-    <!-- HERO SECTION -->
-    <div class="hero vh-100 d-flex align-items-center" id="home">
-        <div class="container">
+            <div class="mobile-navbar-menu">
+                <div class="blended-bg animate__animated"></div>
+                <div class="mobile-navbar-menu-content animate__animated">
+                    <div class="navbar-close-container">
+                        <a href="" id="navbar-close-button"><i class="fas fa-times fa-lg"></i></a>
+                        <a href="#"><img src="images/logo.jpg" alt="CHOGM Logo" height="30"></a>
+                    </div>
+                    <ul>
+                        <li><a href="#highlights">Categories</a></li>
+                        <li><a href="#features">Events</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="headline">
+            <img src="images/bg-mobile.png" alt="" class="headline-bg">
+            <div class="headline-content">
+                <h1 class="animate__animated animate__fadeInLeft animate__slow">
+                    <span>CHOGM IN RWANDA</span><br>
+                    THE FUTURE IS IN AFRICA
+                </h1>
+                <p class="animate__animated animate__slow animate__fadeInUpBig">Rwanda welcomes you with all hospitality to the CHOGM 2022 event. This is a milestone for us
+                    as we strive to be the center of Africa in all aspects of the global economy. Not only will we
+                    contribute to the pride of the continent, but impact the world on a global scale.
+                </p>
+                <div class="sub-heading animate__animated animate__slower animate__backInUp">
+                    <h4>PUSHING LIMITS</h4>
+                    <p>- The FIRST ever CHOGM Event in Africa.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights">
+            <div class="sub-heading">
+                <h2>Categories</h2>
+                <hr>
+            </div>
+            <ul class="row gap-2 gap-md-0">
+                <li class="col-12 col-md-3">
+                    <div class="highlights-card">
+                        <div class="half-wrapper">
+                            <h1 class="bi bi-layers"></h1>
+                            <h3>Education</h3>
+                        </div>
+                        <p>Exploring the future of education and new approaches to building a better system.</p>
+                    </div>
+                </li>
+                <li class="col-12 col-md-3">
+                    <div class="highlights-card">
+                        <div class="half-wrapper">
+                            <h1 class="bi bi-newspaper"></h1>
+                            <h3>Healthcare</h3>
+                        </div>
+                        <p>Shaping Africans for the future of health care. Key speeches and seminars chaired by the African Health Care Commission.</p>
+                    </div>
+                </li>
+                <li class="col-12 col-md-3">
+                    <div class="highlights-card">
+                        <div class="half-wrapper">
+                            <h1 class="bi bi-globe"></h1>
+                            <h3>Global Policy</h3>
+                        </div>
+                        <p>Global Policy is a series of events that will be chaired by the African Policy Commission, but explores the global policy of not just the African continent, but the world.</p>
+                    </div>
+                </li>
+                <li class="col-12 col-md-3">
+                    <div class="highlights-card">
+                        <div class="half-wrapper">
+                            <h1 class="bi bi-newspaper"></h1>
+                            <h3>News</h3>
+                        </div>
+                        <p>Information about recent events or happenings, especially as reported by means of newspapers, websites, radio, television, and other forms of media.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="features">
+            <div class="sub-heading">
+                <h2>Speakers and Events</h2>
+                <hr>
+            </div>
+            <ul class="row gap-4 gap-md-0">
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <div class="sub-heading">
+                <h2>Notable Speakers and Attendees</h2>
+                <hr>
+            </div>
             <div class="row">
-                <div class="col-lg-7 mx-auto text-center">
-                    <h1 class="display-6 text-white">Welcome to CHOGM 2022</h1>
-                    <h3 class="display-6 text-white ">The future is Africa</h3>
-                    <p class="text-white my-3">Rwanda welcomes you with all hospitality to the CHOGM 2022 event. This is a milestone for us
-                        as we strive to be the center of Africa in all aspects of the global economy. Not only will we
-                        contribute to the pride of the continent, but impact the world on a global scale.</p>
-                    <a href="#" class="btn me-2 btn-primary">Events</a>
-                    <a href="#" class="btn btn-outline-light">More Info</a>
-                </div>
+                <img class="col-4 col-md-2"
+                    src="./images/kagame.webp"
+                    alt="President Kagame">
+                <img class="col-4 col-md-2"
+                     src="./images/vusi.jpeg"
+                     alt="Vusi Thembekwayo">
+                <img class="col-4 col-md-2"
+                     src="./images/peter.jpeg"
+                     alt="Peter Okorafor">
+                <img class="col-4 col-md-2"
+                     src="./images/ecowas.jpeg"
+                     alt="Ecowas Panel">
+                <img class="col-4 col-md-2"
+                     src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/2792/s465_Boris_Johnson_.jpg"
+                     alt="Boris Johnson">
+                <img class="col-4 col-md-2"
+                     src="data:image/jpeg;base64,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"
+                     alt="Emmanuel Macron">
             </div>
-        </div>
-    </div><!-- //HERO SECTION-->
+        </section>
 
-    <!-- SERVICES -->
-    <section id="services">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 mx-auto text-center">
-                    <h6 class="text-primary">INFO SECTION</h6>
-                    <h1>Event Categories</h1>
-                </div>
+        <section id="footer">
+            <div class="footer-content row align-items-center">
+                <img class="col-6" src="images/license.png" alt="Creative Commons License">
+                <p class="col-6">2015 Creative Commons Korea.<br>Some Right Reserved</p>
             </div>
-            
-            <div class="row g-4 event-categories">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect bounceInUp">
-                        <div class="iconbox">
-                            <i class='bx bxs-check-shield'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-comment-detail'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service card-effect">
-                        <div class="iconbox">
-                            <i class='bx bxs-cog'></i>
-                        </div>
-                        <h5 class="mt-4 mb-2">Service</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
-                            perferendis </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+        
+    </main>
 
-    <!-- Vusi: Keynote event-->
-    <section class="row w-100 py-5 bg-light" id="features">
-        <div class="col-lg-6 col-img"></div>
-        <div class="col-lg-6 py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <h6 class="text-primary">KEYNOTE EVENT</h6>
-                        <h1>Vusi Thembekwayo: BizTalk</h1>
-                        <p>Vusi explores the limitations to entrepreneurial talents and how to address 
-                            them in the context of the African continent.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- FEATURES -->
-
-    <footer>
-        <div class="footer-top">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4">
-                        <img class="logo" src="./images/logo.jpg" alt="">
-                    </div>
-
-                    <div class="col-lg-4">
-                      <h5 class="text-white">Get Social</h5>
-                      <ul class="list-unstyled">
-                          <li>Follow on Instagram</li>
-                          <li>Like on Facebook</li>
-                          <li>Make more enquiries</li>
-                      </ul>
-                  </div>
-
-                    <div class="col-lg-4">
-                        <h5 class="text-white">Contact</h5>
-                        <ul class="list-unstyled">
-                            <li>Address: 21 Gamzeli Apts, LAU, CY</li>
-                            <li>Email: peterdtitan@gmail.com</li>
-                            <li>Phone: +90-(533)-8341-463</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
