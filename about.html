@@ -1,282 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="CHOGM is an annual conference that is centered around developing favorable global policies">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>CHOGM 2022 | Rwanda</title>
-  </head>
-  <body>
-    <!-- page header section -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About CHOGM</title>
+
+    <!--  Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--  Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--  Fonts  -->
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!--  Icons/Favicon -->
+    <script src="https://kit.fontawesome.com/a3af588d0f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="images/logo.jpg"/>
+
+    <!--  Custom Style Sheets  -->
+    <link rel="stylesheet" href="css/about.css">
+
+</head>
+<body>
     <header>
-      <!-- top nav -->
-      <div class="top-nav">
-        <ul class="top-nav-links">
-          <li>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-          </li>
-          <li><a href="#">English</a></li>
-          <li><a id="user-page1" href="#">My page</a></li>
-          <li><a class="sign-in-btn" id="sign-in-btn1" href="#">Sign in</a></li>
-        </ul>
-      </div>
-      <!-- top nav ends here -->
+        <nav id="navbar">
+            <div class="navbar-content animate__animated animate__slow animate__fadeInDownBig">
+                <div class="mobile-navbar">
+                    <a href="" id="navbar-open-button"><i class="fas fa-bars fa-lg"></i></a>
+                </div>
 
-      <!-- mobile menu pop up -->
-      <div class="mobile-menu">
-        <ul class="menu-list">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li><a href="#">live</a></li>
-          <li><a href="index.html#event-categories">Upcoming</a></li>
-          <li><a href="#">Live Streaming</a></li>
-          <li><a id="user-page2" href="#">My page</a></li>
-          <li><a class="sign-in-btn" id="sign-in-btn2" href="#">Sign in</a></li>
-        </ul>
-      </div>
-      <!-- mobile menu pop up ends here-->
+                <div class="desktop-navbar">
+                    <ul>
+                        <li><a href="index.html"><img src="images/logo.jpg" alt="CHOGM Logo" height="30"></a></li>
+                        <li>
+                            <ul>
+                                <li><a href="#more-events">More Events</a></li>
+                                <li><a href="#awards">Partners</a></li>
+                                <li><a href="index.html" class="about-button">Home</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-      <nav>
-        <div class="logo-menu-icon-container">
-          <a class="logo" href="index.html"
-            ><img src="./images/logo.jpg" alt="logo" /><span class="global-text"
-              >CHOGM 2022</span
-            ><span class="events-text">Rwanda</span></a
-          >
-          <div class="menu-icon"><i class="bi bi-list"></i></div>
-        </div>
-
-        <ul class="main-nav-links">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html"><span class="nav-active">About</span></a>
-          </li>
-          <li><a href="index.html#event-categories">Upcoming</a></li>
-          <li><a href="#">Live Stream CHOGM</a></li>
-        </ul>
-      </nav>
+            <div class="mobile-navbar-menu">
+                <div class="blended-bg animate__animated"></div>
+                <div class="mobile-navbar-menu-content animate__animated">
+                    <div class="navbar-close-container">
+                        <a href="" id="navbar-close-button"><i class="fas fa-times fa-lg"></i></a>
+                        <a href="index.html"><img src="images/logo.jpg" alt="CHOGM Logo" height="30"></a>
+                    </div>
+                    <ul>
+                        <li><a href="#more-events">More Events</a></li>
+                        <li><a href="#awards">Partners</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!-- Sign in form modal section -->
-    <section>
-      <div id="sign-in-form-modal" class="modal">
-        <form
-          id="sign-in-form"
-          class="modal-content animate"
-          action=""
-        ><!--add https://peterdtitan.github.io/chogm-2022-conference/about.html-->
-          <div class="imgcontainer">
-            <span
-              id="modal-close-btn1"
-              class="modal-close-btn"
-              title="Close Modal"
-              >&times;</span
-            >
-          </div>
-          <h2>Login</h2>
-          <div class="container">
-            <label for="login-email"><b>Email Address</b></label>
-            <input
-              type="email"
-              id="login-email"
-              maxlength="50"
-              minlength="10"
-              placeholder="Enter email here .."
-              name="email"
-              required
-            />
 
-            <label for="login-password"><b>Password</b></label>
-            <input
-              type="password"
-              id="login-password"
-              maxlength="10"
-              minlength="8"
-              placeholder="Enter password here .."
-              name="password"
-              required
-            />
-            <div class="remember-me">
-              <input type="checkbox" checked="checked" name="remember" />
-              Remember me
-            </div>
-            <div id="error-message1"></div>
-            <button class="sign-in-submit-btn form-submit-btn" type="submit">
-              Submit
-            </button>
-            <div>
-              Dont have an acount
-              <span class="sign-up-in-option-btn" id="sign-up-btn"
-                ><u><i>Register</i></u>
-              </span>
-            </div>
-          </div>
-
-          <div class="container form-buttom-container">
-            <button type="button" id="cancel-btn1" class="cancel-btn">
-              Cancel
-            </button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <!-- Sign up form modal section -->
-    <section>
-      <div id="sign-up-form-modal" class="modal">
-        <form
-          id="sign-up-form"
-          class="modal-content animate"
-          action=""
-        > <!--Add https://peterdtitan.github.io/chogm-2022-conference/about.html-->
-          <div class="imgcontainer">
-            <span
-              id="modal-close-btn2"
-              class="modal-close-btn"
-              title="Close Modal"
-              >&times;</span
-            >
-          </div>
-          <h2>Register</h2>
-          <div class="container">
-            <label for="username"><b>Username</b></label>
-            <input
-              type="text"
-              id="username"
-              placeholder="Enter username here .."
-              name="username"
-              maxlength="20"
-              minlength="7"
-              required
-            />
-
-            <label for="register-email"><b>Email Address</b></label>
-            <input
-              type="email"
-              id="register-email"
-              maxlength="50"
-              minlength="10"
-              placeholder="Enter email here .."
-              name="email"
-              required
-            />
-
-            <label for="register-password"><b>Password</b></label>
-            <input
-              type="password"
-              id="register-password"
-              maxlength="10"
-              minlength="8"
-              placeholder="Enter password here .."
-              name="password"
-              required
-            />
-            <div class="remember-me">
-              <input type="checkbox" checked="checked" name="remember" />
-              Remember me
-            </div>
-            <div id="error-message2"></div>
-            <button class="sign-up-submit-btn form-submit-btn" type="submit">
-              Submit
-            </button>
-            <div>
-              Have an acount
-              <span class="sign-up-in-option-btn" id="sign-in-btn3"
-                ><u><i>Login</i></u>
-              </span>
-            </div>
-          </div>
-          <div class="container form-buttom-container">
-            <button type="button" id="cancel-btn2" class="cancel-btn">
-              Cancel
-            </button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-      </div>
-    </section>
-    <!-- page main section -->
     <main>
-      <section class="about-section">
-        <h2>
-          CHOGM <i class="bi bi-dot"></i> 2022<br />
-          RWANDA - HOSTS THE WORLD
-        </h2>
-        <p>
-          CHOGM is an annual conference that is centered around developing favorable global policies. This year it is hosted in Rwanda with lots
-          of key speakers and delegates from around the globe. This conference is a great opportunity to learn about the global issues and how to
-          address them.
-        </p>
-        <div>
-          Please contact us via Email for feedback or any other questions about
-          CHOGM 2022! <br />
-          <b>chogmrwanda2022@chogm.com</b>
-        </div>
-      </section>
-      <section class="recent-event-section">
-        <h3>See recent speakers at CHOGM</h3>
-        <div class="horizontal-line"></div>
-        <p>
-          Take a look at three top past events which were streamed live here...
-        </p>
-        <div class="recents-events-container">
-          <div>
-            <iframe
-              src="https://youtu.be/o5bfPUMZvws"
-              title="CHOGM Stream"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div>
-            <iframe
-              src="https://www.youtube.com/watch?v=-Qp0a4jG23A"
-              title="CHOGM Stream"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div>
-            <iframe
-              src="https://www.youtube.com/watch?v=W8Q0IcN_7Qg"
-              title="CHOGM Stream"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </section>
+        <section id="headline">
+            <div class="headline-content">
+                <h1 class="animate__animated animate__fadeInLeft animate__slow">
+                    <span>"WE ARE COMMONWEALTH"</span><br>
+                    PUSHING THE COLLECTIVE GOOD OF THE WORLD
+                </h1>
+                <p class="animate__animated animate__slow animate__fadeInUpBig">CHOGM is an annual conference that is centered around developing favorable global policies. 
+                    This year it is hosted in Rwanda with lots of key speakers and delegates from around the globe. 
+                    This conference is a great opportunity to learn about the global issues and how to
+                    address them.
+                </p>
+                <div class="sub-heading animate__animated animate__slower animate__backInUp">
+                    <p>Please contact us by phone if you have any Queries</p>
+                    <a href="tel:+16464543200" target="_blank">+90 533-8341-463</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="more-events">
+            <div class="sub-heading">
+                <h2>See Past CHOGM Events</h2>
+                <hr>
+            </div>
+            <p>Take a trip and reminisce old CHOGM events</p>
+            <ul class="row gap-4 gap-md-0">
+                <li class="col-12 col-md-6">
+                    <div class="event-card" id="product-1">
+                        <img
+                             src="https://production-new-commonwealth-files.s3.eu-west-2.amazonaws.com/s3fs-public/2022-01/39749277660_d5964a50ae_b.jpg?VersionId=fmPS6K89OnEYRiIbfQA3HrHAd6C8vjsB"
+                             alt="CHOGM 2018 UK">
+                        <div class="product-description col-12">
+                            <h3>2018</h3>
+                            <p>United Kingdom</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-12 col-md-6">
+                    <div class="event-card" id="event-2">
+                        <img
+                            src="https://production-new-commonwealth-files.s3.eu-west-2.amazonaws.com/s3fs-public/styles/banner/public/2022-06/52169457218_fbd31992d2_k%20%281%29.jpg?VersionId=BrvJdduYFFraesyxBLuIRR3zZxVb5qmw&itok=7Aqvn_VE"
+                            alt="CHOGM 2018 UK">
+                        <div class="product-description col-12">
+                            <h3>2015</h3>
+                            <p>Mellieha</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="awards">
+            <div class="sub-heading">
+                <h2>Partners</h2>
+                <hr>
+            </div>
+            <div class="row justify-content-center gallery">
+                <div class="row justify-content-center">
+                    <img class="col-4 col-md-2"
+                        src="./images/kagame.webp"
+                        alt="President Kagame">
+                    <img class="col-4 col-md-2"
+                         src="./images/vusi.jpeg"
+                         alt="Vusi Thembekwayo">
+                    <img class="col-4 col-md-2"
+                         src="./images/peter.jpeg"
+                         alt="Peter Okorafor">
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="footer-content row align-items-center">
+                <img class="col-6" src="images/license.png" alt="Creative Commons License">
+                <p class="col-6">2015 Creative Commons Korea.<br>Some Right Reserved</p>
+            </div>
+        </section>
     </main>
-    <!-- page footer section -->
-    <footer>
-      <section class="other-categories-section">
-        <h6>Follow Us</h6>
-        <div class="horizontal-line"></div>
-        <div class="other-categories-container">
-          <div class="jokes"><i class="bi bi-instagram"></i>Instagram</div>
-          <div class="presentations"><i class="bi bi-twitter">Twitter</i></div>
-          <div class="funny"><i class="bi bi-facebook"></i>Facebook</div>
-          <div class="fitness"><i class="bi bi-linkedin"></i>LinkedIn</div>
-          <div class="history"><i class="bi bi-whatsapp"></i>Whatsapp</div>
-        </div>
-      </section>
-      <div class="about-page-main-footer">
-        <div><p>&copy; CHOGM RWANDA 2022  || Some right are reserved.</p></div>
-      </div>
-    </footer>
-    <script src="./js/script.js"></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
